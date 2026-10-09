@@ -1,0 +1,64 @@
+{
+  "feature_cols": [
+    "CreditScore",
+    "Age",
+    "Tenure",
+    "Balance",
+    "NumOfProducts",
+    "HasCrCard",
+    "IsActiveMember",
+    "EstimatedSalary",
+    "BalanceSalaryRatio",
+    "ProductDensity",
+    "EngagementProductInteraction",
+    "AgeTenureInteraction",
+    "IsZeroBalance",
+    "Geography_Germany",
+    "Geography_Spain",
+    "Gender_Male",
+    "CreditScoreBand_Fair",
+    "CreditScoreBand_Good",
+    "CreditScoreBand_VeryGood",
+    "CreditScoreBand_Excellent"
+  ],
+  "scale_cols": [
+    "CreditScore",
+    "Age",
+    "Tenure",
+    "Balance",
+    "NumOfProducts",
+    "EstimatedSalary",
+    "BalanceSalaryRatio",
+    "ProductDensity",
+    "EngagementProductInteraction",
+    "AgeTenureInteraction"
+  ],
+  "best_model_name": "Gradient Boosting",
+  "best_needs_scaling": false,
+  "explain_model_name": "XGBoost",
+  "explain_needs_scaling": false,
+  "geography_categories": [
+    "France",
+    "Germany",
+    "Spain"
+  ],
+  "gender_categories": [
+    "Female",
+    "Male"
+  ],
+  "credit_band_bins": [
+    0,
+    580,
+    670,
+    740,
+    800,
+    900
+  ],
+  "credit_band_labels": [
+    "Poor",
+    "Fair",
+    "Good",
+    "VeryGood",
+    "Excellent"
+  ]
+}
